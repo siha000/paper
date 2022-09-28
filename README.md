@@ -60,9 +60,9 @@
     + 將所有 Block串接起來，每次 Block會右移動一格，總共移動了 7格，向下移動一格總共移動 15格 ，所以總共有 105塊 Block，每個 Block內又有 36個 Vector，所以總
     Total = 105*36=3780個特徵
 
-    ### SVM介紹
+### SVM介紹
 
-    + SVM是一種統計學習的監督式演算法，可以用於分類和迴歸問題，那在SVM中需要尋找一條超平面(Hyperplane)來將問題做切割，分割出來的最大邊界稱作Margin，靠近正負樣本的值稱為Support Vector
++ SVM是一種統計學習的監督式演算法，可以用於分類和迴歸問題，那在SVM中需要尋找一條超平面(Hyperplane)來將問題做切割，分割出來的最大邊界稱作Margin，靠近正負樣本的值稱為Support Vector
 
     ### Hard Margin SVM
 
@@ -70,6 +70,30 @@
 
     ![markdown-viewer](5.png)
 
+    + 首先先將不必要的點移除，留下Support Vector
+
+    ![markdown-viewer](6.png)
+
+    + 為了算出Xm到Xn距離因此得出式(1-1)和式(1-2)
+
+    ```
+    W1Xm1+W2Xm2+b=1		    式(1-1)
+    
+    W1Xn1+W2Xn2+b=-1		式(1-2)
+
+    ```
+
+    + 利用式(1-1)減去式(1-2)得出距離為式(1-3)
+
+    ```
+
+    W1(Xm1-Xn1)+W2(Xm2-Xm2)=2	式(1-3)
+    
+    ```
+
+    + 化簡過後變成式(1-4)
+
+    ![markdown-viewer](7.png)
 
 
 
