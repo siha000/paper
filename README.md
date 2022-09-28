@@ -86,8 +86,40 @@
 
     ![markdown-viewer](9.png)
 
+    + 接下來在Hyperplane上選擇兩個點，得出式(1-5)和式(1-6)
+
+    ![markdown-viewer](10.png)
+
+    ![markdown-viewer](11.png)
+
+    ![markdown-viewer](12.png)
+
+    + 再回到式(1-4)，點積以cos⁡θ形式表達
+
+    ![markdown-viewer](13.png)
+
+    ![markdown-viewer](14.png)
+
+    + 由以上約束條件可以得出式(1-9)
+
+    ![markdown-viewer](15.png)
     
+    ### Soft Margin SVM
 
+    + 定義:允許錯誤分類發生，但是需要最小化錯誤分類
 
+    ![markdown-viewer](16.png)
 
-    
+    ![markdown-viewer](17.png)
+
+    ![markdown-viewer](18.png)
+
+    ### Kernel Trick
+
+    + 定義:將低維度線性不可分的資料轉換為高維度線性可分
+
+    ![markdown-viewer](19.png)
+
+    ![markdown-viewer](20.png)
+
+    ![markdown-viewer](21.png)
