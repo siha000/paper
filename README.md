@@ -76,24 +76,17 @@
 
     + 為了算出Xm到Xn距離因此得出式(1-1)和式(1-2)
 
-    ```
-    W1Xm1+W2Xm2+b=1		    式(1-1)
-    
-    W1Xn1+W2Xn2+b=-1		式(1-2)
-
-    ```
+    ![markdown-viewer](7.png)
 
     + 利用式(1-1)減去式(1-2)得出距離為式(1-3)
 
-    ```
-
-    W1(Xm1-Xn1)+W2(Xm2-Xm2)=2	式(1-3)
-    
-    ```
+    ![markdown-viewer](8.png)
 
     + 化簡過後變成式(1-4)
 
-    ![markdown-viewer](7.png)
+    ![markdown-viewer](9.png)
+
+    
 
 
 
